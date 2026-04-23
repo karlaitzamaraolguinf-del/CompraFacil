@@ -32,10 +32,8 @@ CompraFacil es una aplicación móvil desarrollada en Flutter que simula una tie
 
 ## 📸 Capturas de pantalla
 
-<p align="center">
-  <img src="assets/screenshots/home.png" width="250"/>
-  <img src="assets/screenshots/carrito.png" width="250"/>
-</p>
+![home](assets/screenshots/home.png)
+![carrito](assets/screenshots/carrito.png)
 
 ---
 
