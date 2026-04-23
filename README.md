@@ -1,16 +1,90 @@
-# comprafacil
+# 🛒 CompraFacil
 
-A new Flutter project.
+CompraFacil es una aplicación móvil desarrollada en Flutter que simula una tienda en línea, permitiendo a los usuarios explorar productos, filtrarlos y gestionar un carrito de compras de forma sencilla e intuitiva.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 🚀 Estado del proyecto
 
-A few resources to get you started if this is your first Flutter project:
+🟢 En desarrollo
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Características
+
+* 🔐 Inicio de sesión (login)
+* 🛍️ Catálogo de productos
+* 🛒 Carrito de compras
+* 🔎 Filtros de búsqueda estilo Amazon
+* 💾 Persistencia de datos (SharedPreferences)
+* 🎨 Interfaz moderna y amigable
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+* Flutter
+* Dart
+* Provider (gestión de estado)
+* SharedPreferences
+
+---
+
+## 📸 Capturas de pantalla
+
+<p align="center">
+  <img src="assets/screenshots/home.png" width="250"/>
+  <img src="assets/screenshots/carrito.png" width="250"/>
+</p>
+
+---
+
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+```bash
+git clone https://github.com/karlaitzamaraolguinf-del/CompraFacil.git
+```
+
+2. Entra al proyecto:
+
+```bash
+cd CompraFacil
+```
+
+3. Instala dependencias:
+
+```bash
+flutter pub get
+```
+
+4. Ejecuta la app:
+
+```bash
+flutter run
+```
+
+---
+
+## 📂 Estructura del proyecto
+
+```
+lib/
+ ├── models/
+ ├── screens/
+ ├── services/
+ ├── widgets/
+```
+
+---
+
+## 👩‍💻 Autor
+
+* Karla Itzamara Olguin
+
+---
+
+## 📄 Licencia
+
+Este proyecto es de uso educativo.
