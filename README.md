@@ -1,50 +1,62 @@
-🛒 Tienda Online con Carrito de Compras
+
+📱 SmartCart - App de Compras
 
 📌 Descripción
 
-Esta aplicación es una tienda en línea que permite a los usuarios explorar productos y agregarlos a un carrito de compras. El sistema está enfocado en la funcionalidad del carrito, sin uso de imágenes, mostrando la información de los productos de forma sencilla.
+SmartCart es una aplicación móvil desarrollada en Flutter que permite a los usuarios gestionar sus compras mediante un carrito digital. La app muestra productos en formato texto (sin imágenes), enfocándose en rapidez y funcionalidad.
 
 ⚙️ Funcionalidades
 
-* Visualización de productos (sin imágenes)
+* Lista de productos sin imágenes
 * Agregar productos al carrito
 * Eliminar productos del carrito
-* Actualizar cantidades
-* Cálculo automático del total de compra
-* Interfaz simple y fácil de usar
+* Modificar cantidades
+* Cálculo automático del total
+* Interfaz simple e intuitiva
 
 🛠️ Tecnologías utilizadas
 
-* HTML
-* CSS
-* JavaScript
+* Flutter
+* Dart
 
 🚀 Instalación
 
-Ejemplo de instalación:
+1. Clona el repositorio:
 
-1. Clona este repositorio:
-
-git clone https://github.com/usuario/tienda-carrito.git
+git clone https://github.com/usuario/smartcart-flutter.git
 
 2. Entra a la carpeta del proyecto:
 
-cd tienda-carrito
+cd smartcart-flutter
 
-3. Abre el archivo en tu navegador:
+3. Instala dependencias:
 
-index.html
+flutter pub get
 
-📂 Estructura del proyecto
+4. Ejecuta la app:
 
-* index.html → Página principal
-* styles.css → Estilos de la aplicación
-* script.js → Lógica del carrito de compras
+flutter run
+
+⸻
+
+📁 Estructura del proyecto
+
+lib/
+├── models/
+├── screens/
+├── services/
+├── widgets/
+
+⸻
 
 💡 Uso
 
-Selecciona los productos disponibles y agrégalos al carrito. Puedes modificar cantidades o eliminar productos antes de finalizar la compra. El total se actualizará automáticamente.
+Selecciona productos desde la lista y agrégalos al carrito. Puedes modificar cantidades o eliminar productos. El total se actualiza automáticamente.
 
-👩‍💻 Desarrollador
+⸻
 
-Areli Chávez
+👩‍💻 Autor
+
+* Andrea Garza
+
+⸻
