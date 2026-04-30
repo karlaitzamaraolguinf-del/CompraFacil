@@ -1,88 +1,50 @@
-# 🛒 CompraFacil
+🛒 Tienda Online con Carrito de Compras
 
-CompraFacil es una aplicación móvil desarrollada en Flutter que simula una tienda en línea, permitiendo a los usuarios explorar productos, filtrarlos y gestionar un carrito de compras de forma sencilla e intuitiva.
+📌 Descripción
 
----
+Esta aplicación es una tienda en línea que permite a los usuarios explorar productos y agregarlos a un carrito de compras. El sistema está enfocado en la funcionalidad del carrito, sin uso de imágenes, mostrando la información de los productos de forma sencilla.
 
-## 🚀 Estado del proyecto
+⚙️ Funcionalidades
 
-🟢 En desarrollo
+* Visualización de productos (sin imágenes)
+* Agregar productos al carrito
+* Eliminar productos del carrito
+* Actualizar cantidades
+* Cálculo automático del total de compra
+* Interfaz simple y fácil de usar
 
----
+🛠️ Tecnologías utilizadas
 
-## 📱 Características
+* HTML
+* CSS
+* JavaScript
 
-* 🔐 Inicio de sesión (login)
-* 🛍️ Catálogo de productos
-* 🛒 Carrito de compras
-* 🔎 Filtros de búsqueda estilo Amazon
-* 💾 Persistencia de datos (SharedPreferences)
-* 🎨 Interfaz moderna y amigable
+🚀 Instalación
 
----
-
-## 🛠️ Tecnologías utilizadas
-
-* Flutter
-* Dart
-* Provider (gestión de estado)
-* SharedPreferences
-
----
-
-## 📸 Capturas de pantalla
-
-![home](assets/screenshots/home.png)
-![carrito](assets/screenshots/carrito.png)
-
----
-
-## 📦 Instalación
+Ejemplo de instalación:
 
 1. Clona este repositorio:
 
-```bash
-git clone https://github.com/karlaitzamaraolguinf-del/CompraFacil.git
-```
+git clone https://github.com/usuario/tienda-carrito.git
 
-2. Entra al proyecto:
+2. Entra a la carpeta del proyecto:
 
-```bash
-cd CompraFacil
-```
+cd tienda-carrito
 
-3. Instala dependencias:
+3. Abre el archivo en tu navegador:
 
-```bash
-flutter pub get
-```
+index.html
 
-4. Ejecuta la app:
+📂 Estructura del proyecto
 
-```bash
-flutter run
-```
+* index.html → Página principal
+* styles.css → Estilos de la aplicación
+* script.js → Lógica del carrito de compras
 
----
+💡 Uso
 
-## 📂 Estructura del proyecto
+Selecciona los productos disponibles y agrégalos al carrito. Puedes modificar cantidades o eliminar productos antes de finalizar la compra. El total se actualizará automáticamente.
 
-```
-lib/
- ├── models/
- ├── screens/
- ├── services/
- ├── widgets/
-```
+👩‍💻 Desarrollador
 
----
-
-## 👩‍💻 Autor
-
-* Karla Itzamara Olguin
-
----
-
-## 📄 Licencia
-
-Este proyecto es de uso educativo.
+Areli Chávez
