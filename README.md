@@ -1,62 +1,88 @@
+# 🛒 CompraFacil
 
-📱 SmartCart - App de Compras
+CompraFacil es una aplicación móvil desarrollada en Flutter que simula una tienda en línea, permitiendo a los usuarios explorar productos, filtrarlos y gestionar un carrito de compras de forma sencilla e intuitiva.
 
-📌 Descripción
+---
 
-SmartCart es una aplicación móvil desarrollada en Flutter que permite a los usuarios gestionar sus compras mediante un carrito digital. La app muestra productos en formato texto (sin imágenes), enfocándose en rapidez y funcionalidad.
+## 🚀 Estado del proyecto
 
-⚙️ Funcionalidades
+🟢 En desarrollo
 
-* Lista de productos sin imágenes
-* Agregar productos al carrito
-* Eliminar productos del carrito
-* Modificar cantidades
-* Cálculo automático del total
-* Interfaz simple e intuitiva
+---
 
-🛠️ Tecnologías utilizadas
+## 📱 Características
+
+* 🔐 Inicio de sesión (login)
+* 🛍️ Catálogo de productos
+* 🛒 Carrito de compras
+* 🔎 Filtros de búsqueda estilo Amazon
+* 💾 Persistencia de datos (SharedPreferences)
+* 🎨 Interfaz moderna y amigable
+
+---
+
+## 🛠️ Tecnologías utilizadas
 
 * Flutter
 * Dart
+* Provider (gestión de estado)
+* SharedPreferences
 
-🚀 Instalación
+---
 
-1. Clona el repositorio:
+## 📸 Capturas de pantalla
 
-git clone https://github.com/usuario/smartcart-flutter.git
+![home](assets/screenshots/home.png)
+![carrito](assets/screenshots/carrito.png)
 
-2. Entra a la carpeta del proyecto:
+---
 
-cd smartcart-flutter
+## 📦 Instalación
+
+1. Clona este repositorio:
+
+bash
+git clone https://github.com/karlaitzamaraolguinf-del/CompraFacil.git
+
+
+2. Entra al proyecto:
+
+bash
+cd CompraFacil
+
 
 3. Instala dependencias:
 
+bash
 flutter pub get
+
 
 4. Ejecuta la app:
 
+bash
 flutter run
 
-⸻
 
-📁 Estructura del proyecto
+---
+
+## 📂 Estructura del proyecto
+
 
 lib/
-├── models/
-├── screens/
-├── services/
-├── widgets/
+ ├── models/
+ ├── screens/
+ ├── services/
+ ├── widgets/
 
-⸻
 
-💡 Uso
+---
 
-Selecciona productos desde la lista y agrégalos al carrito. Puedes modificar cantidades o eliminar productos. El total se actualiza automáticamente.
+## 👩‍💻 Autor
 
-⸻
+* Karla Itzamara Olguin
 
-👩‍💻 Autor
+---
 
-* Andrea Garza
+## 📄 Licencia
 
-⸻
+Este proyecto es de uso educativo.
