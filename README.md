@@ -1,88 +1,60 @@
-# 🛒 CompraFacil
+# 🎨 ArtSnap AI
 
-CompraFacil es una aplicación móvil desarrollada en Flutter que simula una tienda en línea, permitiendo a los usuarios explorar productos, filtrarlos y gestionar un carrito de compras de forma sencilla e intuitiva.
-
----
-
-## 🚀 Estado del proyecto
-
-🟢 En desarrollo
+ArtSnap AI es una aplicación móvil desarrollada en Flutter que permite a los usuarios iniciar sesión de forma segura y acceder a diferentes herramientas creativas como dibujo, cámara, galería e imágenes por URL. Utiliza Firebase para la autenticación y gestión de usuarios.
 
 ---
 
-## 📱 Características
+## 🚀 Características
 
-* 🔐 Inicio de sesión (login)
-* 🛍️ Catálogo de productos
-* 🛒 Carrito de compras
-* 🔎 Filtros de búsqueda estilo Amazon
-* 💾 Persistencia de datos (SharedPreferences)
-* 🎨 Interfaz moderna y amigable
+- 🔐 Login con Google (Firebase Authentication)
+- 👆 Autenticación con huella digital (Local Auth)
+- 🏠 Pantalla principal con 4 opciones:
+  - 🎨 Dibujar
+  - 📸 Cámara
+  - 🖼️ Galería
+  - 🌐 Imagen por URL
+- ☁️ Integración con Firebase
+- 📱 Interfaz moderna y sencilla
 
 ---
 
 ## 🛠️ Tecnologías utilizadas
 
-* Flutter
-* Dart
-* Provider (gestión de estado)
-* SharedPreferences
+- Flutter
+- Dart
+- Firebase Authentication
+- Google Sign-In
+- Local Authentication (huella digital)
+- Firebase Core
 
 ---
 
-## 📸 Capturas de pantalla
+## 📱 Funcionalidades principales
 
-![home](assets/screenshots/home.png)
-![carrito](assets/screenshots/carrito.png)
+### 🔐 Login seguro
+Permite iniciar sesión con Google o mediante huella digital para mayor seguridad.
+
+### 🏠 Menú principal
+Pantalla con acceso rápido a las funciones principales de la app.
+
+### 🎨 Dibujar
+Sección para crear dibujos personalizados dentro de la app.
+
+### 📸 Cámara
+Permite tomar fotos directamente desde el dispositivo.
+
+### 🖼️ Galería
+Acceso a imágenes almacenadas en el dispositivo.
+
+### 🌐 Imagen por URL
+Permite cargar imágenes desde enlaces de internet.
 
 ---
 
-## 📦 Instalación
+## ⚙️ Instalación
 
-1. Clona este repositorio:
-
-bash
-git clone https://github.com/karlaitzamaraolguinf-del/CompraFacil.git
-
-
-2. Entra al proyecto:
-
-bash
-cd CompraFacil
-
-
-3. Instala dependencias:
-
-bash
+```bash
+git clone https://github.com/tuusuario/artsnap-ai.git
+cd artsnap-ai
 flutter pub get
-
-
-4. Ejecuta la app:
-
-bash
 flutter run
-
-
----
-
-## 📂 Estructura del proyecto
-
-
-lib/
- ├── models/
- ├── screens/
- ├── services/
- ├── widgets/
-
-
----
-
-## 👩‍💻 Autor
-
-* Karla Itzamara Olguin
-
----
-
-## 📄 Licencia
-
-Este proyecto es de uso educativo.
