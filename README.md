@@ -58,3 +58,9 @@ git clone https://github.com/tuusuario/artsnap-ai.git
 cd artsnap-ai
 flutter pub get
 flutter run
+
+
+
+👨‍💻 Autor
+
+Desarrollado por Areli Chavez 🚀
